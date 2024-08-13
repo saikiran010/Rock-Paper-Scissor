@@ -50,7 +50,7 @@ const playGame=(userChoice) =>{
     let userWin=true;
     if(userChoice==="rock")
         //scissor,paper
-        userWin = compChoice==="peper"?false:true;
+        userWin = compChoice==="paper"?false:true;
     else if(userChoice === "paper")
         //rock,scissor
        userWin = compChoice === "scissor"?false:true;
